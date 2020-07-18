@@ -4,19 +4,20 @@
 
 <h2>Last "tateti_juego" modification:</h2>
   <p>
-    <br>
-    Following what was talked in the previous virtual class, about the way "declare" and "define" work, I made a preliminar advance that attempts to declare all functions before the "main", and place all defining code at the end.
-    <br>
-    As my tools aren't working properly, and I can't properly compile, the code will not work yet, and I am only following along the process of reforming the code.
-    <br><br>
+  <br>
+  I'll be making changes for the following few weeks to try and create a more understandable sketch of code. This means not only general tidying up, but more specifically:
+  <br>
+  1) Better segregation between functions and main() code. <br>
+  2) Better function bases. <br>
+  3) Total elimination of the need for non-fixed global variables. <br>
+  <br>
+  I hope that I can begin compiling before the 1st of august. 
+  <br><br>
   </p>
 <h2>Next advancements will be either</h2>
   <p>
     <br>
     <br>
-    a) Separation of all declaration code into a header file.
-    <br>
-    b) Attempting to generalize or standardize the code - changing CONsole Input Output v2 (conio2) to a standard library.
-    <br>
-    c) Attempting to make the compiler work without the standerdized code.
+    a) Removal of "goto" code as it breaks the whole point of making a "structured" code. <br>
+    c) Renaming functions and variables to better suit their purpose.
   </p>
