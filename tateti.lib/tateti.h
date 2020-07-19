@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <base_functions.h>
 
 void draw_title();
 void select_AI_type();
