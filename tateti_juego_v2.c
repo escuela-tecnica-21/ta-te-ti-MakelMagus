@@ -12,12 +12,15 @@ main()
   draw_board();
   while(winner() == 0)
   {
+    //asks the player for an input
     player_turn();
     draw_move();
+    //end if the player wins
     if(winner() != 0)
     {
       goto end;
     }
+    //reads the board and decides the position
     AI_turn();
     draw_move();
   }
