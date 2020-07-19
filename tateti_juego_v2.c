@@ -10,7 +10,6 @@ main()
   cleanup_screen();
   //game
   draw_board();
-
   while(winner() == 0)
   {
     player_turn();
